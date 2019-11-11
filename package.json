@@ -1,6 +1,10 @@
 {
   "name": "@felixluciano/my-tailwind",
+  "description": "My Tailwindcss configuration",
+  "author": "Luciano Felix Dias <luciano.felix.555@hotmail.com>",
   "version": "0.1.0",
+  "repository": "https://github.com/FelixLuciano/my-tailwind.git",
+  "license": "GNU",
   "private": false,
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
