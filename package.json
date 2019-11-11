@@ -2,6 +2,9 @@
   "name": "@felixluciano/my-tailwind",
   "version": "0.1.0",
   "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "minify": "postcss dist/tailwind.css -o dist/tailwind.min.css --verbose",
     "build": "tailwind build tailwind.css -c src/index.js -o dist/tailwind.css",

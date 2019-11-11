@@ -2,20 +2,20 @@
 
 
 ### Introduction
-My tailwind bla bla
+TODO
 
 
 ### Features
 
-- **Grid** - you can
-- **Colors** - Color palette in classes and variables to colorize your layout.
-- **Aspect ratio** - Set Prim as you want with CSS variables.
-- **Plugins** - abc
-- And everything you know in tailwind...
+- **Grid** - TODO
+- **Colors** - TODO.
+- **Aspect ratio** - TODO
+- **Plugins** - TODO
+- And everything you already know about Tailwind...
 
 ### Getting started
 
-The easiest way to try out my Tailwind is installing it in your project, using this following command
+TODO
 
 ```bash
 npm install --save-dev @felixluciano/my-tailwind
