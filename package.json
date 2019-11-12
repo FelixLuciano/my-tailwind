@@ -2,9 +2,12 @@
   "name": "@felixluciano/my-tailwind",
   "description": "My Tailwindcss configuration",
   "author": "Luciano Felix Dias <luciano.felix.555@hotmail.com>",
-  "version": "0.1.0",
-  "repository": "https://github.com/FelixLuciano/my-tailwind.git",
-  "license": "GNU",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixLuciano/my-tailwind.git"
+  },
+  "license": "GPL-3.0",
   "private": false,
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -13,7 +16,7 @@
     "minify": "postcss dist/tailwind.css -o dist/tailwind.min.css --verbose",
     "build": "tailwind build tailwind.css -c src/index.js -o dist/tailwind.css",
     "lint": "eslint --fix src/",
-    "start": "npm run lint && npm run build && npm run minify"
+    "start": "npm run build && npm run minify"
   },
   "main": "./src/index.js",
   "dependencies": {
@@ -38,5 +41,13 @@
     "prettier": "1.19.1",
     "prettier-config-standard": "^1.0.1",
     "tailwindcss": "^1.1.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/FelixLuciano/my-tailwind/issues"
+  },
+  "homepage": "https://github.com/FelixLuciano/my-tailwind#readme",
+  "keywords": [
+    "tailwindcss",
+    "tailwind"
+  ]
 }
