@@ -2,16 +2,13 @@
   "name": "@felixluciano/my-tailwind",
   "description": "My Tailwindcss configuration",
   "author": "Luciano Felix Dias <luciano.felix.555@hotmail.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FelixLuciano/my-tailwind.git"
   },
   "license": "GPL-3.0",
   "private": false,
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "minify": "postcss dist/tailwind.css -o dist/tailwind.min.css --verbose",
     "build": "tailwind build tailwind.css -c src/index.js -o dist/tailwind.css",
