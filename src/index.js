@@ -1,7 +1,13 @@
+const { merge } = require('lodash')
+
 const options = require('./options/index.js')
 const theme = require('./theme/index.js')
 
-module.exports = {
+const myTailwind = {
   ...options,
   ...theme
+}
+
+module.exports = function(config = {}) {
+  return merge(myTailwind, config)
 }

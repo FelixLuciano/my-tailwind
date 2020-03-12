@@ -18,6 +18,10 @@ const components = {
       display: 'block'
     },
 
+    '&.reverse-ratio:after': {
+      paddingBottom: 'calc(1 / var(--aspect-ratio, 1) * 100%)'
+    },
+
     '& > .aspect-ratio-content': {
       width: '100%',
       height: '100%',
@@ -31,7 +35,7 @@ module.exports = function(options = {}) {
     const utilitiTheme = theme('aspectRatio', defaultTheme)
     const utilitiVariants = variants('aspectRatio', defaultVariants)
 
-    const Utilities = _.fromPairs(
+    const utilities = _.fromPairs(
       _.map(utilitiTheme, (value, modifier) => {
         const aspectRatio = _.isArray(value) ? value[0] / value[1] : value
 
@@ -45,6 +49,6 @@ module.exports = function(options = {}) {
     )
 
     addComponents(components)
-    addUtilities(Utilities, utilitiVariants)
+    addUtilities(utilities, utilitiVariants)
   }
 }
