@@ -2,7 +2,7 @@
   "name": "@felixluciano/my-tailwind",
   "description": "My Tailwindcss configuration",
   "author": "Luciano Felix Dias <luciano.felix.555@hotmail.com>",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FelixLuciano/my-tailwind.git"
